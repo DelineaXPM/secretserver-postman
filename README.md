@@ -4,6 +4,12 @@ This repository contains an environment and collection export for Postman based 
 
 The collection allows you to test the Secret Server APIs from within Postman. This collection will work against both Secret Server (on-premises) and Secret Server Cloud.
 
+## Visualize
+
+Each collection includes a JavaScript that will **attempt to** parse the `records` object (if the endpoint returns one) and build a formatted table to view the data:
+
+<img src="https://user-images.githubusercontent.com/11204251/104269730-99dc2d00-545c-11eb-97f5-3026be12e662.png" width="633" height="260">
+
 ## Setup
 
 1. Clone or download this repository to your device.
