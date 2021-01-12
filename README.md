@@ -1,2 +1,32 @@
-# secretserver-postman
-Postman collection and environment for testing/utilizing Secret Server REST API
+# Secert Server Postman Collections
+
+This repository contains an environment and collection export for Postman based on the API documents for Secret Server's REST API.
+
+The collection allows you to test the Secret Server APIs from within Postman. This collection will work against both Secret Server (on-premises) and Secret Server Cloud.
+
+<img source="https://user-images.githubusercontent.com/11204251/104262406-27b01c00-544d-11eb-8798-8f30befc55c5.png" width="1097" height="579">
+
+## Setup
+
+1. Clone or download this repository to your device.
+1. Open [Postman](https://www.getpostman.com/) on your device.
+1. Click **File | Import ...**.
+1. Click the Upload Files button.
+1. Hold `CTRL` key and click on environment file and the desired collections.
+1. Click **Import** button.
+
+https://user-images.githubusercontent.com/11204251/104268904-a790b300-545a-11eb-888f-3909395a522c.mp4
+
+## Troubleshooting Postman
+
+If you are using this collection against your internal or local Secret Server lab you may see an initial error like this when you try to retrieve an access token:
+
+<img src="https://user-images.githubusercontent.com/11204251/104262762-dce2d400-544d-11eb-8a1d-eb7f339b6e29.png" width="521" height="308">
+
+If you show the Postman console (`ATL + CTRL + C` or _View | Show Postman Console_) you will see this message to indicate the SSL certificate for your web service cannot be validated:
+
+<img src="https://user-images.githubusercontent.com/11204251/104262838-03087400-544e-11eb-80da-c5769aa11a0c.png" width="687" height="182">
+
+To fix this you need to go into your settings for Postman (`CTRL + comma` or _File | Settings_) and toggle off the setting **SSL certificate verification**.
+
+<img src="https://user-images.githubusercontent.com/11204251/104262900-26332380-544e-11eb-9c16-64c6678c1497.png" width="618" height="457">
