@@ -15,7 +15,7 @@ The collection allows you to test the Secret Server APIs from within Postman. Th
 1. Hold `CTRL` key and click on environment file and the desired collections.
 1. Click **Import** button.
 
-https://user-images.githubusercontent.com/11204251/104268904-a790b300-545a-11eb-888f-3909395a522c.mp4
+You can view a recording of the above steps [here](secretserver_postman_setup.mp4).
 
 ## Troubleshooting Postman
 
