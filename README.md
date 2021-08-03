@@ -1,8 +1,8 @@
 # Secert Server Postman Collections
 
-This repository contains an environment and collection export for Postman based on the API documents for Secret Server's REST API.
+This repository host a Postman collection for latest versions of Secret Server. An environment file is also included that the collections are configured to utilize.
 
-The collection allows you to test the Secret Server APIs from within Postman. This collection will work against both Secret Server (on-premises) and Secret Server Cloud.
+This repository will only host the last 3 major versions of Secret Server, previous versions can be found by looking at the Git history through GitHub if needed.
 
 ## Visualize
 
@@ -20,6 +20,8 @@ Each collection includes a JavaScript that will **attempt to** parse the `record
 1. Click **Import** button.
 
 You can view a recording of the above steps [here](secretserver_postman_setup.mp4).
+
+> Newer versions of Postman starting with version 8 allow you to import the full repository into Postman. You will need to fork this repository to your GitHub account for that to work.
 
 ## Troubleshooting Postman
 
